@@ -1,0 +1,108 @@
+/* Styles for main content */
+main {
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 20px;
+  background-color: #013369; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  color: #fff; 
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/* Styles for headings */
+h1 {
+  color: #fff; 
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #fff; 
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+table {
+  color: #fff; 
+}
+
+/* Styles for links */
+a {
+  color: #fff; 
+  text-decoration: none;
+  border: 1px solid #fff; 
+  padding: 8px 12px; /* Adjusted padding for links */
+  border-radius: 5px; /* Rounded corners for the border */
+  display: inline-block; 
+  margin: 5px; 
+  vertical-align: baseline; 
+  transition: border-color 0.3s ease; 
+}
+
+a:hover {
+  text-decoration: underline;
+  border-color: #ff0000; 
+}
+
+
+
+/* Styles for forms */
+form {
+  margin-top: 20px;
+}
+
+/* Style for form labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff; /* White color for labels */
+}
+
+/* Style for form input fields */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; 
+  background-color: #fff; 
+  color: #333; 
+}
+
+/* Style for form submit button */
+input[type="submit"] {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #da4731; 
+}
+
+button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #da4731; 
+}
+
+
